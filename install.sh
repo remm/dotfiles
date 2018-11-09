@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-#!/bin/sh
-
 echo "Setting up your Mac..."
 
 # Check for Homebrew and install if we don't have it
@@ -16,5 +14,5 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
-# Make ZSH the default shell environment
+ Make ZSH the default shell environment
 chsh -s $(which zsh)

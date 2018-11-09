@@ -57,13 +57,13 @@ brew 'tmux'
 brew 'wget'
 brew 'rsync'
 brew 'youtube-dl'
-brew 'zx'
+brew 'xz'
 brew 'unrar'
 brew 'telnet'
 brew 'tcping'
 brew 'ssh-copy-id'
 
-
+# Apps
 cask '1password-cli'
 cask 'goland'
 cask 'iterm2-beta'
@@ -89,3 +89,17 @@ cask 'keybase'
 cask 'rubymine'
 cask 'viber'
 cask 'vlc'
+
+# Fonts
+cask 'font-source-code-pro-for-powerline'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
+
+# Mac App Store
+mas 'The Unarchiver', id: 425424353
+mas 'Telegram', id: 747648890
+mas 'Omnifocus-3', id: 1346203938
+mas 'Reeder-3', id: 880001334
+mas 'Slack', id: 803453959
+mas 'Pixelmator', id: 407963104
