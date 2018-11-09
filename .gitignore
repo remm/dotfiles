@@ -14,7 +14,6 @@ generator/vendor/bundle
 .chef/
 .ruby-version
 .terraform/
-landscape/.terraform/
 
 ### Windows ###
 Thumbs.db
@@ -31,23 +30,6 @@ Icon
 .Spotlight-V100
 .Trashes
 
-## Terraform ###
-*.tfstate*backup
-terraform.tfvars
-generator/output/**/*.tf
-generator/output/**/terraform.conf
-generator/output
-
-landscape/certs/*.crt
-landscape/certs/*.chain
-landscape/certs/*.key
-landscape/*/.terraform
-terraform.plan
-targets
-
-## generated lambdas ##
-landscape/lambdas/*.zip
-node_modules
 
 /bin/
 /*.iml
