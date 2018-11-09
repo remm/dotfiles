@@ -14,5 +14,14 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
- Make ZSH the default shell environment
+#Make ZSH the default shell environment
 chsh -s $(which zsh)
+
+# Removes .zshrc from $HOME (if it exists) and symlinks the ..zshrc file from the .dotfiles
+rm -rf $HOME/.zshrc
+ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+
+# Removes .fzf.bash and .fzf.zsh from $HOME (if it exists) and symlinks files from the .dotfiles
+rm -rf $HOME/.fzf.bash; rm -rf $HOME/.fzf.zsh;
+ln -s $HOME/.dotfiles/.fzf.bash $HOME/.fzf.bash
+ln -s $HOME/.dotfiles/.fzf.zsh $HOME/.fzf.zsh
