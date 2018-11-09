@@ -1,6 +1,10 @@
 # Taps
 tap 'caskroom/cask'
 tap 'jesseduffield/lazygit'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/core'
+tap 'homebrew/services'
 
 # Binaries
 brew 'awscli'
