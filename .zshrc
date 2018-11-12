@@ -104,7 +104,7 @@ export GOPATH=$HOME/go
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-[[ -s "/usr/local/etc/grc.zsh" ]] && source /etc/grc.zsh
+[[ -s "/usr/local/etc/grc.zsh" ]] && source /usr/local/etc/grc.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 eval "$(rbenv init -)"
