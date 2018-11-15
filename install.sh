@@ -17,9 +17,13 @@ brew bundle
 #Make ZSH the default shell environment
 chsh -s $(which zsh)
 
-# Removes .zshrc from $HOME (if it exists) and symlinks the ..zshrc file from the .dotfiles
+# Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+
+# Removes .bashrc from $HOME (if it exists) and symlinks the .bashrc file from the .dotfiles
+rm -rf $HOME/.bashrc
+ln -s $HOME/.dotfiles/.bashrc $HOME/.bashrc
 
 # Removes .fzf.bash and .fzf.zsh from $HOME (if it exists) and symlinks files from the .dotfiles
 rm -rf $HOME/.fzf.bash; rm -rf $HOME/.fzf.zsh;
