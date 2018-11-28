@@ -91,6 +91,7 @@ cask 'keybase'
 cask 'rubymine'
 cask 'viber'
 cask 'vlc'
+cask 'alfred'
 
 # Fonts
 cask 'font-source-code-pro-for-powerline'
