@@ -64,6 +64,7 @@ brew 'unrar'
 brew 'telnet'
 brew 'tcping'
 brew 'ssh-copy-id'
+brew 'topgrage'
 
 # Apps
 cask '1password-cli'
