@@ -36,3 +36,6 @@ Icon
 **.svg
 **.dot
 **.pyc
+#secrets
+secrets.zsh
+venv

@@ -105,5 +105,5 @@ mas 'The Unarchiver', id: 425424353
 mas 'Telegram', id: 747648890
 mas 'Omnifocus-3', id: 1346203938
 mas 'Reeder-3', id: 880001334
-mas 'Slack', id: 803453959
+#mas 'Slack', id: 803453959
 mas 'Pixelmator', id: 407963104

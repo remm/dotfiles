@@ -61,6 +61,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git
   zsh-apple-touchbar
+  kubectl
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -98,6 +99,9 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ZSH_THEME="powerlevel9k/powerlevel9k"
 source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
+#Ruby libs
+PATH="/Users/maksymsh/.chefdk/gem/ruby/2.6.0/bin:/opt/chefdk/embedded/bin:/opt/chefdk/bin:$PATH"
+
 #golang
 export GOPATH=$HOME/go
 
@@ -115,3 +119,14 @@ if [ -f '/Users/romanst/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/romanst
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/romanst/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/romanst/google-cloud-sdk/completion.zsh.inc'; fi
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/vault vault
+
+export GENERATOR_TIMEOUT=600
+#export TFRESDIF_DEBUG=1
+
+source /Users/romanst/Library/Preferences/org.dystroy.broot/launcher/bash/br
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
