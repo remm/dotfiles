@@ -1,8 +1,6 @@
 # Taps
 tap 'caskroom/cask'
 tap 'jesseduffield/lazygit'
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
 tap 'homebrew/core'
 tap 'homebrew/services'
 
@@ -17,10 +15,8 @@ brew 'tig'
 brew 'lazygit'
 brew 'gist'
 brew 'grep'
-brew 'mas'
 brew 'mtr'
 brew 'nmap'
-brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'tree'
 brew 'pstree'
 brew 'zsh'
@@ -67,42 +63,11 @@ brew 'ssh-copy-id'
 brew 'topgrage'
 
 # Apps
-cask '1password-cli'
-cask 'goland'
-cask 'iterm2-beta'
-cask 'little-snitch'
-cask 'skype-preview'
 cask 'virtualbox'
 cask 'wireshark'
-cask 'bartender'
-cask 'google-chrome-beta'
-cask 'java'
-cask 'postman'
-cask 'sublime-merge'
 cask 'virtualbox-extension-pack'
-cask 'docker-edge'
-cask 'google-drive-file-stream'
 cask 'keepassx'
-cask 'pycharm-ce'
 cask 'vagrant'
-cask 'visual-studio-code'
-cask 'firefox-beta'
 cask 'gpg-suite'
 cask 'keybase'
-cask 'rubymine'
-cask 'viber'
-cask 'vlc'
 cask 'alfred'
-
-# Fonts
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
-
-# Mac App Store
-mas 'The Unarchiver', id: 425424353
-mas 'Telegram', id: 747648890
-mas 'Omnifocus-3', id: 1346203938
-mas 'Reeder-3', id: 880001334
-mas 'Pixelmator', id: 407963104

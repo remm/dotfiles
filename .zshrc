@@ -126,7 +126,6 @@ complete -o nospace -C /usr/local/bin/vault vault
 export GENERATOR_TIMEOUT=600
 #export TFRESDIF_DEBUG=1
 
-source /Users/romanst/Library/Preferences/org.dystroy.broot/launcher/bash/br
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
