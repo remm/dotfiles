@@ -1,4 +1,4 @@
-#Good examples:
+#Good examples
 
 https://github.com/driesvints/dotfiles
 
